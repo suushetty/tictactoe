@@ -1,0 +1,20 @@
+extends layout
+
+block body
+  .navbar.navbar-default.navbar-fixed-top
+  .container.nav-header-style
+    .navbar.navbar-default
+      .title
+        | Tic-Tac-Toe
+      .pageText  
+        p.lead.
+          <br/>
+          Welcome to Tic Tac Toe! 
+          <br/>
+          To play, you can either use the mouse to click on the cells in the grid or use the Keyboard number pad.
+          </br>
+          The keys 1-9 map to the corresponding cells in the grid. Player 1 starts. Enjoy!
+          <br/>
+      #gameContent(style='background-color: rgb(231, 231, 231); border-radius: 8px')
+        include gameContent    
+    

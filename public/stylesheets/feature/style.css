@@ -1,0 +1,62 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 20px;
+    background-color: rgb(238, 122, 141);
+    border-color: rgb(14, 36, 14);
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.tcell {
+    width: 60px;
+    height: 60px;
+    border-width: ;
+    background-color: rgb(240, 181, 181);
+    display: inline-block;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
+.tcell:hover {
+    cursor: pointer;
+}
+
+.choice {
+    text-align:center;
+    font-size: 40px;  
+}
+
+.num {
+    color: rgb(192, 150, 150);
+}
+
+.playerTag {
+    width: 120px;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.playerTag.on {
+    background-color: #3071a9;
+}
+.playerTag.off {
+    background-color: #9ABAD7;
+}
+
+.pageText {
+    text-align: center;
+}
+
+.result {
+    font-weight: bold;
+    font-size: large;
+}
