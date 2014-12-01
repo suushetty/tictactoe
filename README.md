@@ -4,7 +4,7 @@ Tic-Tac-Toe
 **Welcome to the TicTacToe game**
 
 This project lets you play a simple game of tic-tac-toe between two people.  Players can either use the keypad(1-9) or the mouse to play
-
+The webapp runs using nodejs.
 The folders\files are laid out as follows
 > public
 >  
